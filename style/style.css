@@ -1,10 +1,13 @@
+body{
+    background-color:#e0e7ff;
+}
 .nav-bar-container{
     position: fixed;
     top: 0;
     left: 0;
-  
+     height: 70px;
     width: 100%;
-    background-color: darkblue;
+    background-color:rgb(1, 1, 24);
 }
 .nav-bar{
    padding: 2px 10px;
@@ -20,4 +23,16 @@
 .nav-bar li a{
     text-decoration: none; 
     color: white;
+}
+.page{
+    height: 600px;
+    margin: auto;
+    font-size: 3rem;
+    font-weight: bolder;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(28, 1, 83);
+    
 }
